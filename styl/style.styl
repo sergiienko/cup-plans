@@ -85,10 +85,11 @@ textarea {
   align-self: center
   border-radius: 5px
   padding: 30px 20px
-  width 30%
-  max-width: 360px
+  flex-grow: 1
 
   &_gold
+    flex-grow: 2
+    margin 0 30px
     padding-top: 50px
     padding-bottom: 50px
 
@@ -110,7 +111,6 @@ textarea {
 
   @media (max-width: 960px)
     margin-top: 30px
-    width 100%
     max-width: 60%
     min-width: 404px
 
@@ -126,6 +126,7 @@ textarea {
       order: 2
 
   @media (max-width: 480px)
+    width 100%
     max-width 100%
-    min-width: 100%
+    min-width: 200px
     
