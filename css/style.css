@@ -893,10 +893,11 @@ select {
   align-self: center;
   border-radius: 5px;
   padding: 30px 20px;
-  width: 30%;
-  max-width: 360px;
+  flex-grow: 1;
 }
 .ba-plan_gold {
+  flex-grow: 2;
+  margin: 0 30px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -919,7 +920,6 @@ select {
 @media (max-width: 960px) {
   .ba-plan {
     margin-top: 30px;
-    width: 100%;
     max-width: 60%;
     min-width: 404px;
   }
@@ -937,8 +937,9 @@ select {
 }
 @media (max-width: 480px) {
   .ba-plan {
+    width: 100%;
     max-width: 100%;
-    min-width: 100%;
+    min-width: 200px;
   }
 }
 
