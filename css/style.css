@@ -878,7 +878,7 @@ select {
   align-content: center;
   justify-content: space-around;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 30px 30px;
   max-width: 1200px;
   min-height: 100vh;
 }
@@ -896,7 +896,7 @@ select {
   width: 30%;
   max-width: 360px;
 }
-.ba-plan:nth-child(2n) {
+.ba-plan_gold {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -941,3 +941,5 @@ select {
     min-width: 100%;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
